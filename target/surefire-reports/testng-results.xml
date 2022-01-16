@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RestAssuredSuite" duration-ms="12789" started-at="2022-01-16T07:44:42 IST" finished-at="2022-01-16T07:44:55 IST">
+    <groups>
+    </groups>
+    <test name="RestAssuredTest" duration-ms="12789" started-at="2022-01-16T07:44:42 IST" finished-at="2022-01-16T07:44:55 IST">
+      <class name="com.qa.restassured.testcases.UpdateUserTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.restassured.testcases.UpdateUserTest@6f1fba17]" name="setUp" is-config="true" duration-ms="0" started-at="2022-01-16T07:44:52 IST" finished-at="2022-01-16T07:44:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="updateUserTest()[pri:0, instance:com.qa.restassured.testcases.UpdateUserTest@6f1fba17]" name="updateUserTest" duration-ms="1073" started-at="2022-01-16T07:44:52 IST" finished-at="2022-01-16T07:44:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserTest -->
+        <test-method status="PASS" signature="updateUserWithPatchTest()[pri:0, instance:com.qa.restassured.testcases.UpdateUserTest@6f1fba17]" name="updateUserWithPatchTest" duration-ms="1152" started-at="2022-01-16T07:44:53 IST" finished-at="2022-01-16T07:44:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserWithPatchTest -->
+      </class> <!-- com.qa.restassured.testcases.UpdateUserTest -->
+      <class name="com.qa.restassured.testcases.GetUsersTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.restassured.testcases.GetUsersTest@5f9d02cb]" name="setUp" is-config="true" duration-ms="571" started-at="2022-01-16T07:44:42 IST" finished-at="2022-01-16T07:44:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAllUsersTest()[pri:0, instance:com.qa.restassured.testcases.GetUsersTest@5f9d02cb]" name="getAllUsersTest" duration-ms="4571" started-at="2022-01-16T07:44:43 IST" finished-at="2022-01-16T07:44:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsersTest -->
+        <test-method status="PASS" signature="getSingleUserNotFoundTest()[pri:0, instance:com.qa.restassured.testcases.GetUsersTest@5f9d02cb]" name="getSingleUserNotFoundTest" duration-ms="1086" started-at="2022-01-16T07:44:47 IST" finished-at="2022-01-16T07:44:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleUserNotFoundTest -->
+        <test-method status="PASS" signature="getSingleUserTest()[pri:0, instance:com.qa.restassured.testcases.GetUsersTest@5f9d02cb]" name="getSingleUserTest" duration-ms="1004" started-at="2022-01-16T07:44:48 IST" finished-at="2022-01-16T07:44:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleUserTest -->
+      </class> <!-- com.qa.restassured.testcases.GetUsersTest -->
+      <class name="com.qa.restassured.testcases.CreateUserTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.restassured.testcases.CreateUserTest@6c3708b3]" name="setUp" is-config="true" duration-ms="1" started-at="2022-01-16T07:44:49 IST" finished-at="2022-01-16T07:44:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createUser400BadReqestTest()[pri:0, instance:com.qa.restassured.testcases.CreateUserTest@6c3708b3]" name="createUser400BadReqestTest" duration-ms="1081" started-at="2022-01-16T07:44:49 IST" finished-at="2022-01-16T07:44:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser400BadReqestTest -->
+        <test-method status="PASS" signature="createUsersTest()[pri:0, instance:com.qa.restassured.testcases.CreateUserTest@6c3708b3]" name="createUsersTest" duration-ms="1134" started-at="2022-01-16T07:44:50 IST" finished-at="2022-01-16T07:44:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUsersTest -->
+      </class> <!-- com.qa.restassured.testcases.CreateUserTest -->
+      <class name="com.qa.restassured.testcases.DeleteUserTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.restassured.testcases.DeleteUserTest@67784306]" name="setUp" is-config="true" duration-ms="0" started-at="2022-01-16T07:44:54 IST" finished-at="2022-01-16T07:44:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteUserTest()[pri:0, instance:com.qa.restassured.testcases.DeleteUserTest@67784306]" name="deleteUserTest" duration-ms="1067" started-at="2022-01-16T07:44:54 IST" finished-at="2022-01-16T07:44:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+      </class> <!-- com.qa.restassured.testcases.DeleteUserTest -->
+    </test> <!-- RestAssuredTest -->
+  </suite> <!-- RestAssuredSuite -->
+</testng-results>

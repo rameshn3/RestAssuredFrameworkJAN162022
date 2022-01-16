@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RestAssuredSuite">
+  <test thread-count="5" name="RestAssuredTest">
+    <classes>
+      <class name="com.qa.restassured.testcases.GetUsersTest"/>
+       <class name="com.qa.restassured.testcases.CreateUserTest"/>
+       <class name="com.qa.restassured.testcases.UpdateUserTest"></class>
+        <class name="com.qa.restassured.testcases.DeleteUserTest"></class>
+    </classes>
+  </test> <!-- RestAssuredTest -->
+</suite> <!-- RestAssuredSuite -->

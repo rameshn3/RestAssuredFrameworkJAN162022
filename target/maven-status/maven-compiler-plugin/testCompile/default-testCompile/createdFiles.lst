@@ -1,0 +1,5 @@
+com\qa\restassured\testcases\CreateUserTest.class
+com\qa\restassured\testcases\UpdateUserTest.class
+com\qa\restassured\testcases\DeleteUserTest.class
+com\qa\restassured\testcases\GetUsersTest.class
+com\qa\restassured\base\TestBase.class
